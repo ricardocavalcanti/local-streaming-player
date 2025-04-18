@@ -50,7 +50,7 @@ app/
 
 ## 🚀 Como rodar
 
-1. Clone o projeto: `git clone https://github.com/seu-usuario/local-streaming-player.git`
+1. Clone o projeto: `git clone https://github.com/ricardocavalcanti/local-streaming-player.git`
 2. Abra com o Android Studio (preferencialmente Arctic Fox ou superior)
 3. Rode em um emulador ou dispositivo físico
 
