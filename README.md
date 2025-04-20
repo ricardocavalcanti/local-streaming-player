@@ -47,10 +47,44 @@ app/
 └── res/
     └── theme/
 ```
-
+---
 ## 🚀 Como rodar
 
 1. Clone o projeto: `git clone https://github.com/ricardocavalcanti/local-streaming-player.git`
 2. Abra com o Android Studio (preferencialmente Arctic Fox ou superior)
 3. Rode em um emulador ou dispositivo físico
+
+---
+
+## 📝 Padrão de Mensagens de Commits
+
+Cada tipo de commit segue um padrão bem definido:
+
+### 🚀 Funcionalidades novas
+- **`feat:`** Para novas funcionalidades.
+    - Exemplo: `feat: criar botao login`
+
+### 🐛 Correções de bugs
+- **`fix:`** Para correções de bugs.
+    - Exemplo: `fix: corrigir rota tela`
+
+### 🔨 Refatorações de código
+- **`refactor:`** Para refatorações de código sem alteração de comportamento.
+    - Exemplo: `refactor: extrair logica para classe separada`
+
+### 📄 Alterações na documentação
+- **`docs:`** Para alterações na documentação.
+    - Exemplo: `docs: atualizar instrucoes de execucao local`
+
+### 🎨 Mudanças de estilo e formatação
+- **`style:`** Para mudanças de estilo (formatação de código, etc.).
+    - Exemplo: `style: remover espacos em branco desnecessarios`
+
+### 🧪 Testes
+- **`test:`** Para adicionar ou modificar testes.
+    - Exemplo: `test: adicionar teste unitário para cotacaoService`
+
+### 🧹 Tarefas diversas
+- **`chore:`** Para tarefas diversas (build, configuração, etc.).
+    - Exemplo: `chore: adicionar .gitignore para Android Studio`
 
