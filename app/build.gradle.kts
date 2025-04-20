@@ -44,11 +44,13 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
-    implementation(platform(libs.androidx.compose.bom))
-    implementation(libs.androidx.ui)
-    implementation(libs.androidx.ui.graphics)
-    implementation(libs.androidx.ui.tooling.preview)
-    implementation(libs.androidx.material3)
+    implementation(platform(libs.androidx.compose.bom)) // BOM para controlar versões
+    implementation(libs.androidx.ui) // Biblioteca principal do Compose UI
+    implementation(libs.androidx.ui.graphics) // Para gráficos no Compose
+    implementation(libs.androidx.ui.tooling.preview) // Ferramentas para Preview
+    implementation(libs.androidx.material3) // Material3
+    implementation(libs.androidx.compose.foundation) // Para LazyVerticalGrid e outros componentes
+    implementation(libs.androidx.compose.foundation.layout) // Layouts do Compose
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
